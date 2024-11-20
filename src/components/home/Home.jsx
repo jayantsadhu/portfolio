@@ -136,7 +136,7 @@ const Home = ({ id }) => {
                     sx={{ margin: "10px auto" }}
                   >
                     <a
-                      href="https://www.linkedin.com/in/jayant-kumar-sadhu-a747731b3/"
+                      href="https://www.linkedin.com/in/jayantsadhu/"
                       target="_blank"
                       rel="noreferrer"
                     >

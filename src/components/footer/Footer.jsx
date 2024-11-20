@@ -22,7 +22,7 @@ const Footer = () => {
           sx={{ margin: "10px auto", order: { xs: 1, sm: 2 } }}
         >
           <a
-            href="https://www.linkedin.com/in/jayant-kumar-sadhu-a747731b3/"
+            href="https://www.linkedin.com/in/jayantsadhu/"
             target="_blank"
             rel="noreferrer"
           >
