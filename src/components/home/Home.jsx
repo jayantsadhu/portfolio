@@ -5,6 +5,7 @@ import {
   Container,
   Stack,
   Typography,
+  Link,
 } from "@mui/material";
 import Grid from "@mui/material/Grid2";
 import WorkIcon from "@mui/icons-material/Work";
@@ -125,7 +126,13 @@ const Home = ({ id }) => {
                   </Stack>
                   <Stack direction={"row"} spacing={1}>
                     <CodeIcon />
-                    <Typography>LeetCode (1726)</Typography>
+                    <Link
+                      href="https://leetcode.com/u/jayantsadhu/"
+                      target="_blank"
+                      underline="none"
+                    >
+                      LeetCode (1726)
+                    </Link>
                   </Stack>
                 </Box>
                 <Box>
