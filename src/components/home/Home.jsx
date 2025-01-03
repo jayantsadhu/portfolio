@@ -13,7 +13,7 @@ import SchoolIcon from "@mui/icons-material/School";
 import CodeIcon from "@mui/icons-material/Code";
 import HomeIcon from "@mui/icons-material/Home";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
-import DownloadForOfflineIcon from "@mui/icons-material/DownloadForOffline";
+import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import jayant from "../../assets/jayant2.jpg";
@@ -142,11 +142,7 @@ const Home = ({ id }) => {
                     justifyContent={"center"}
                     sx={{ margin: "10px auto" }}
                   >
-                    <a
-                      href="https://www.linkedin.com/in/jayantsadhu/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
+                    <a href={LINKS.LINKEDIN} target="_blank" rel="noreferrer">
                       <Avatar>
                         <LinkedInIcon
                           fontSize="large"
@@ -154,11 +150,7 @@ const Home = ({ id }) => {
                         />
                       </Avatar>
                     </a>
-                    <a
-                      href="https://github.com/jayantsadhu"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
+                    <a href={LINKS.GITHUB} target="_blank" rel="noreferrer">
                       <Avatar>
                         <GitHubIcon fontSize="large" sx={{ color: "black" }} />
                       </Avatar>
@@ -176,7 +168,7 @@ const Home = ({ id }) => {
                     }}
                   >
                     CONTACT ME HERE{" "}
-                    <ArrowRightAltIcon
+                    <KeyboardDoubleArrowDownIcon
                       sx={{ marginLeft: "8px", marginRight: "" }}
                     />
                   </Button>
@@ -194,8 +186,7 @@ const Home = ({ id }) => {
                       },
                     }}
                   >
-                    DOWNLOAD CV{" "}
-                    <DownloadForOfflineIcon sx={{ marginLeft: "8px" }} />
+                    VIEW CV <ArrowRightAltIcon sx={{ marginLeft: "8px" }} />
                   </Button>
                 </Stack>
               </Stack>
