@@ -31,7 +31,7 @@ export const EMAILJS = {
 
 export const LINKS = {
   RESUME:
-    "https://drive.google.com/file/d/17LlkVmzR0JUMSJT8vex_XXljDKcu8w5h/view?usp=sharing",
+    "https://drive.google.com/file/d/1wKueygrJjsRVoKnrfMlY2oiR7z5Kz6I6/view?usp=sharing",
   GITHUB: "https://github.com/jayantsadhu",
   LINKEDIN: "https://www.linkedin.com/in/jayantsadhu/",
 };
