@@ -60,7 +60,7 @@ const Footer = () => {
         color={COLORS.TEXT_SHADE}
         fontSize={"0.8rem"}
       >
-        &copy; 2024, All rights reserved
+        &copy; 2025, All rights reserved
       </Typography>
     </Box>
   );
