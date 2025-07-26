@@ -16,7 +16,7 @@ import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import jayant from "../../assets/jayant2.jpg";
+import jayant from "../../assets/jayant3.jpg";
 import { COLORS, LINKS } from "../../configs";
 // import bg from "./../../assets/bg.jpg";
 
@@ -94,7 +94,7 @@ const Home = ({ id }) => {
                     fontStyle: "normal",
                   }}
                 >
-                  Full-Stack & Android Developer
+                  Java & Backend Engineer
                 </Typography>
                 <Typography color={COLORS.TEXT_SHADE}>
                   Hello, I'm{" "}
@@ -106,8 +106,8 @@ const Home = ({ id }) => {
                   >
                     Jayant Kumar Sadhu
                   </span>
-                  . A passionate Android, Full-Stack Java Developer and blog
-                  writer based in India📍. I feel most satisfaction when
+                  . A passionate Java Backend Engineer, Android Developer and
+                  blog writer based in India📍. I feel most satisfaction when
                   challeged and thrive on it, keeping the learning curve
                   exponent.
                 </Typography>

@@ -47,7 +47,7 @@ export const PAGES = [
 ];
 
 export const ABOUTME =
-  "I am a Java Full-Stack and Kotlin Android Developer with over 4 years of experience in this domain and over 2.5 years of experience as a working Professional in programming. My passion for problem-solving and learning new things has led me to become proficient in various technologies, including React.js, Java, SpringBoot, Kotlin, Django, MongoDB, and MySQL. Additionally, I am a team player who enjoys collaborating with cross-functional teams to create exceptional web applications.";
+  "I am a Java Spring Boot backend and Kotlin Android Developer with over 4 years of experience in this domain and over 3+ years of experience as a working Professional in programming. My passion for problem-solving and learning new things has led me to become proficient in various technologies, including React.js, Java, SpringBoot, Kotlin, Django, MongoDB, and MySQL. Additionally, I am a team player who enjoys collaborating with cross-functional teams to create exceptional web applications.";
 
 export const EXPERIENCES = [
   {
@@ -55,7 +55,7 @@ export const EXPERIENCES = [
     designation: "Senior Engineer",
     dates: "Apr 2024 - Present",
     description:
-      "I am working as one of the key members in the development and maintenance of the Client-core module of the SmartThings Android app, implemented the Android Repository Design Pattern in the Client-core module. SmartThings is Samsung’s smart home platform for connecting various IoT devices.",
+      "I am working as one of the key members in the development and maintenance of the core backend modules for the Loyalty & Transaction Management system in Samsung Wallet using Java, enabling seamless integration of digital membership cards and real-time transaction syncing. Built Spring Boot microservices for user enrollment, point redemption, and event handling with 2M+ daily API requests.",
     link: "https://research.samsung.com/sri-b",
     image: samsung,
   },
@@ -73,7 +73,7 @@ export const EXPERIENCES = [
     designation: "Software Engineer Intern",
     dates: "Mar 2022 - Jun 2022",
     description:
-      "Worked in a full-stack team to develop key features of a production site. Learnt SOLID properties and best design practices. Key tech stacks used Java, Spring Boot and react.js.",
+      "Developed robust, production-ready RESTful APIs using Java and Spring Boot, improving backend performance. Applied SOLID principles to refactor legacy codebase, enhancing code maintainability and reducing technical debt.",
     link: "https://www.zemosolabs.com/",
     image: zemoso,
   },
@@ -109,12 +109,16 @@ export const SKILLS = [
     image: java,
   },
   {
-    skill: "Android",
-    image: android,
+    skill: "Spring Boot",
+    image: springboot,
   },
   {
-    skill: "Kotlin",
-    image: kotlin,
+    skill: "React.js",
+    image: reactjs,
+  },
+  {
+    skill: "Android",
+    image: android,
   },
   {
     skill: "Python",
@@ -125,16 +129,12 @@ export const SKILLS = [
     image: django,
   },
   {
-    skill: "Spring Boot",
-    image: springboot,
-  },
-  {
-    skill: "React.js",
-    image: reactjs,
-  },
-  {
     skill: "Mongo DB",
     image: mongodb,
+  },
+  {
+    skill: "Kotlin",
+    image: kotlin,
   },
 ];
 
