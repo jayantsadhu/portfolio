@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/portfolio/static/js/main.8d5d0501.js",
+    "main.js": "/portfolio/static/js/main.77507955.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/food_curves.jpg": "/portfolio/static/media/food_curves.8f281411c7c9fe36c3a9.jpg",
     "static/media/news_app.jpg": "/portfolio/static/media/news_app.0118142ff0015d8086bb.jpg",
@@ -14,13 +14,14 @@
     "static/media/jac_logo.jpeg": "/portfolio/static/media/jac_logo.6972e349180f177f60b4.jpeg",
     "static/media/pk_roy_logo.jpeg": "/portfolio/static/media/pk_roy_logo.f179fdfa2abad19ee9e2.jpeg",
     "static/media/jadavpur_uni_logo.png": "/portfolio/static/media/jadavpur_uni_logo.91d5d7f4b547e41129f4.png",
+    "static/media/goldman_sachs_logo.jfif": "/portfolio/static/media/goldman_sachs_logo.fb488958cc376c4b0554.jfif",
     "index.html": "/portfolio/index.html",
     "main.f855e6bc.css.map": "/portfolio/static/css/main.f855e6bc.css.map",
-    "main.8d5d0501.js.map": "/portfolio/static/js/main.8d5d0501.js.map",
+    "main.77507955.js.map": "/portfolio/static/js/main.77507955.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.8d5d0501.js"
+    "static/js/main.77507955.js"
   ]
 }
