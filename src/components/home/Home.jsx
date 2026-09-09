@@ -118,7 +118,9 @@ const Home = ({ id }) => {
                   </Stack>
                   <Stack direction={"row"} spacing={1}>
                     <WorkIcon />
-                    <Typography>Software Engineer in Samsung</Typography>
+                    <Typography>
+                      Software Engineer (SDE-II) in Goldman Sachs
+                    </Typography>
                   </Stack>
                   <Stack direction={"row"} spacing={1}>
                     <SchoolIcon />

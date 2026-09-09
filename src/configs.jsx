@@ -12,6 +12,7 @@ import springboot from "./assets/spring_boot_logo.png";
 import juniv from "./assets/jadavpur_uni_logo.png";
 import pkroy from "./assets/pk_roy_logo.jpeg";
 import jac from "./assets/jac_logo.jpeg";
+import goldman_sachs from "./assets/goldman_sachs_logo.jfif";
 import samsung from "./assets/samsung_research.jpeg";
 import zemoso from "./assets/zemoso.jpeg";
 
@@ -47,15 +48,23 @@ export const PAGES = [
 ];
 
 export const ABOUTME =
-  "I am a Java Spring Boot backend and Kotlin Android Developer with over 4 years of experience in this domain and over 3+ years of experience as a working Professional in programming. My passion for problem-solving and learning new things has led me to become proficient in various technologies, including React.js, Java, SpringBoot, Kotlin, Django, MongoDB, and MySQL. Additionally, I am a team player who enjoys collaborating with cross-functional teams to create exceptional web applications.";
-
+  "Backend Developer and LLM enthusiast with 4+ years of professional experience building resilient, highly scalable distributed systems. My passion for problem-solving drives my expertise across a diverse tech stack, including Java, Spring Boot, Kafka, Kubernetes, Django, and MongoDB. I specialize in owning the full SDLC from architecting complex decisioning workflows from scratch to enforcing stringent security compliance and real-time production observability. An award-winning collaborator (ex-Samsung) and published researcher, I thrive in cross-functional environments where I can tackle core latency bottlenecks and deliver exceptional web applications.";
 export const EXPERIENCES = [
+  {
+    title: "Goldman Sachs",
+    designation: "Associate (SDE-II)",
+    dates: "Oct 2025 - Present",
+    description:
+      "I'm currently building a highly scalable recertification engine from the ground up, focusing on complex coverage-based decisioning and solving in-memory latency bottlenecks. Alongside the architecture, I own the full lifecycle and production health of the system, keeping things running smoothly with rigorous testing and real-time observability through Grafana and PagerDuty. I also lead our security initiatives, migrating legacy frameworks and setting up multi-service account provisioning to keep our infrastructure compliant and secure.",
+    link: "https://www.goldmansachs.com/worldwide/india",
+    image: goldman_sachs,
+  },
   {
     title: "Samsung R&D Institute India Bangalore",
     designation: "Senior Engineer",
-    dates: "Apr 2024 - Present",
+    dates: "Apr 2024 - Oct 2025",
     description:
-      "I am working as one of the key members in the development and maintenance of the core backend modules for the Loyalty & Transaction Management system in Samsung Wallet using Java, enabling seamless integration of digital membership cards and real-time transaction syncing. Built Spring Boot microservices for user enrollment, point redemption, and event handling with 2M+ daily API requests.",
+      "Have worked as one of the key members in the development and maintenance of the core backend modules for the Loyalty & Transaction Management system in Samsung Wallet using Java, enabling seamless integration of digital membership cards and real-time transaction syncing. Built Spring Boot microservices for user enrollment, point redemption, and event handling with 2M+ daily API requests.",
     link: "https://research.samsung.com/sri-b",
     image: samsung,
   },

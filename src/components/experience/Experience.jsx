@@ -18,7 +18,7 @@ const Experience = ({ id }) => {
       >
         <Stack textAlign={"center"} color={COLORS.TEXT}>
           <Typography fontSize={"1.7rem"} lineHeight={0.8} fontWeight={"bold"}>
-            3+ YEARS OF
+            4+ YEARS OF
           </Typography>
           <Typography
             color={COLORS.HEADING_SHADE}
